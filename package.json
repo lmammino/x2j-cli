@@ -1,0 +1,26 @@
+{
+  "name": "x2j-cli",
+  "version": "1.0.0",
+  "description": "Node.js command line script to convert xml input into json output (can be piped easily)",
+  "main": "index.js",
+  "bin": {
+    "x2j": "./index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmammino/x2j-cli.git"
+  },
+  "author": "Luciano Mammino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmammino/x2j-cli/issues"
+  },
+  "homepage": "https://github.com/lmammino/x2j-cli#readme",
+  "dependencies": {
+    "xml2js": "^0.4.17"
+  }
+}
