@@ -18,10 +18,12 @@ stdin.on('data', function (chunk) {
 stdin.on('end', function () {
   xml2js.parseString(content, (err, parsedData) => {
     if (err) {
-      return console.error(err);
+      console.error(err);
+      process.exit(1);
     }
     var outputJSON = JSON.stringify(parsedData, null, 2);
     stdout.write(outputJSON);
     stdout.write('\n');
+    process.exit(0);
   });
 });
