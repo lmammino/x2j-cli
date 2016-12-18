@@ -1,13 +1,14 @@
 {
   "name": "x2j-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js command line script to convert xml input into json output (can be piped easily)",
   "engines": {
     "node": ">=0.12"
   },
   "main": "index.js",
   "bin": {
-    "x2j": "./index.js"
+    "x2j": "./index.js",
+    "xml2json": "./index.js"
   },
   "preferGlobal": true,
   "scripts": {

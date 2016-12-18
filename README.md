@@ -44,9 +44,9 @@ It requires Node (4.0.0 or higher) and Npm (2 or higher):
 npm install --global x2j-cli
 ```
 
-This is going to install globally the executable `x2j` which you can use to
-convert xml string from the standard input into formatted JSON into the standard
-output as shown in the example above.
+This is going to install globally the executable `x2j` (and its alias `xml2json`)
+which you can use to convert xml string from the standard input into formatted
+JSON into the standard output as shown in the example above.
 
 
 ## Contributing
