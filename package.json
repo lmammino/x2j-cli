@@ -1,6 +1,6 @@
 {
   "name": "x2j-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node.js command line script to convert xml input into json output (can be piped easily)",
   "engines": {
     "node": ">=4"
