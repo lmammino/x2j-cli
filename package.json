@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Node.js command line script to convert xml input into json output (can be piped easily)",
   "engines": {
-    "node": ">=0.12"
+    "node": ">=4"
   },
   "main": "index.js",
   "bin": {
