@@ -11,6 +11,8 @@ var xml2js = require('xml2js');
 stdin.resume();
 stdin.setEncoding('utf8');
 
+stdout._handle.setBlocking(true);
+
 stdin.on('data', function (chunk) {
   content += chunk;
 });
