@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/lmammino/x2j-cli#readme",
   "dependencies": {
-    "xml2js": "^0.4.17"
+    "xml2js": "^0.5.0"
   },
   "devDependencies": {
     "tap": "^8.0.1"
